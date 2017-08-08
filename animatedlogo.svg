@@ -32,4 +32,4 @@
 	</g>
 	<text transform="matrix(1 0 0 1 222.5497 332.7846)" class="st1 st2 st3 st4">OpenAgar</text>
 </g>
-<style>.mtBSLMOp_0{stroke-dasharray:510 512;stroke-dashoffset:511;animation:mtBSLMOp_draw 3000ms linear 0ms forwards;}.mtBSLMOp_1{stroke-dasharray:86 88;stroke-dashoffset:87;animation:mtBSLMOp_draw 3000ms linear 0ms forwards;}.mtBSLMOp_2{stroke-dasharray:1487 1489;stroke-dashoffset:1488;animation:mtBSLMOp_draw 3000ms linear 0ms forwards;}@keyframes mtBSLMOp_draw{100%{stroke-dashoffset:0;}}@keyframes mtBSLMOp_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
+<style>.mtBSLMOp_0{stroke-dasharray:510 512;stroke-dashoffset:511;animation:mtBSLMOp_draw 10000ms linear 0ms forwards;}.mtBSLMOp_1{stroke-dasharray:86 88;stroke-dashoffset:87;animation:mtBSLMOp_draw 10000ms linear 0ms forwards;}.mtBSLMOp_2{stroke-dasharray:1487 1489;stroke-dashoffset:1488;animation:mtBSLMOp_draw 10000ms linear 0ms forwards;}@keyframes mtBSLMOp_draw{100%{stroke-dashoffset:0;}}@keyframes mtBSLMOp_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
