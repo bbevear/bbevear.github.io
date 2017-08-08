@@ -1,0 +1,314 @@
+html {
+    background: #0c7bf2;
+    overflow: hidden;
+}
+
+.quotes {display: none;
+    position: absolute;
+    margin-top: -25px;
+}
+
+ #init {
+        animation-duration: 15s;
+        -webkit-animation-duration: 15s;
+        -moz-animation-duration: 15;
+        -ms-transition-animation-duration: 15s;
+} 
+
+body {
+    width:100%;
+    max-width: 100%;
+    margin:0px;
+}
+
+.animatedLogo {
+    position: absolute;
+    top: -300%;
+    height: 800%;
+    left: -10%;
+    opacity:0.07;
+}
+
+/* Desktop? */
+@media (min-width: 50px){ 
+    #outer {
+        position: relative;
+        height:100%;
+        max-width: 100%;
+    }
+
+    #innerLogo {
+        top: 20%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    #innerSearch {
+        position: absolute;
+        width: 150%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-25%);
+    }
+
+    .mainSearch {
+        width: 52%;
+        height: 50px;
+        background-color: transparent;
+        border-color: white;
+        border-style: solid;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        font-size:12pt;
+        color: white;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        outline-width: 0;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1609px){ 
+    #outer {
+        position: relative;
+        height:100%;
+        max-width: 100%;
+    }
+
+    #innerLogo {
+        top: 20%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #innerSearch {
+        position: absolute;
+        width: 150%;
+        top: 65%;
+        left: 50%;
+        transform: translate(-25%);
+    }
+
+    .mainSearch {
+        width: 52%;
+        height: 50px;
+        background-color: transparent;
+        border-color: white;
+        border-style: solid;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        font-size:12pt;
+        color: white;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        outline-width: 0;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+
+
+@media (min-width: 1610px) {
+    #outer {
+        position: relative;
+        height:100%;
+        max-width: 100%;
+
+    }
+
+    #innerLogo {
+        width: 40%;
+        height: 272px;
+        left: 5%;
+        position: absolute;
+        top: 50%;
+        transform:translateY(-50%);
+        display: block;
+    }
+
+    #innerSearch {
+        margin-left: 50px;
+        width: 100%;
+        position: relative;
+        top: 50%;
+        transform:translateY(-50%);
+        left: 44%;
+    }
+
+    .mainSearch {
+        width: 52%;
+        height: 50px;
+        background-color: transparent;
+        border-color: white;
+        border-style: solid;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        font-size:12pt;
+        color: white;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        outline-width: 0;
+        -webkit-font-smoothing: antialiased;
+    }
+
+}
+
+
+    /* Galaxy Tab 10.1 portrait */
+    @media  (min-device-width: 800px) and (orientation: portrait) { 
+    #outer {
+        height:100%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #innerLogo {
+        top: 20%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #innerSearch {
+        position: absolute;
+        width: 150%;
+        top: 55%;
+        left: 50%;
+        transform: translate(-25%);
+    }
+
+    .mainSearch {
+        width: 52%;
+        height: 50px;
+        background-color: transparent;
+        border-color: white;
+        border-style: solid;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        font-size:12pt;
+        color: white;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        outline-width: 0;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+
+ @media all and (-webkit-min-device-pixel-ratio: 2) { 
+    html {
+        overflow-x: hidden;
+    }
+
+    img {
+        height: 25%;
+    }
+    
+      #outer {
+        height:100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .animatedLogo {
+        left: -50%;
+    }
+
+    #innerLogo {
+        top: 20%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #innerSearch {
+        position: absolute;
+        width: 150%;
+        top: 55%;
+        left: 50%;
+        transform: translate(-25%);
+    }
+
+    .mainSearch {
+        width: 52%;
+        height: 50px;
+        background-color: transparent;
+        border-color: white;
+        border-style: solid;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        font-size:12pt;
+        color: white;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        outline-width: 0;
+        -webkit-font-smoothing: antialiased;
+    }
+} 
+
+@media all and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px) { 
+    #outer {
+        position: relative;
+        height:100%;
+        max-width: 100%;
+
+    }
+
+    img {
+        height: 100%;
+    }
+
+    #innerLogo {
+        width: 40%;
+        height: 272px;
+        left: 5%;
+        position: absolute;
+        top: 50%;
+        transform:translateY(-50%);
+        display: block;
+    }
+
+    #innerSearch {
+        margin-left: 50px;
+        width: 100%;
+        position: relative;
+        top: 50%;
+        transform:translateY(-50%);
+        left: 44%;
+    }
+
+    .mainSearch {
+        width: 52%;
+        height: 50px;
+        background-color: transparent;
+        border-color: white;
+        border-style: solid;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        font-size:12pt;
+        color: white;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        outline-width: 0;
+        -webkit-font-smoothing: antialiased;
+    }
+} 
+
+.mainSearch::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  padding-left:4px;
+}
+.mainSearch::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  padding-left:4px;
+}
+.mainSearch:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+  padding-left:4px;
+}
+.mainSearch:-moz-placeholder { /* Firefox 18- */
+  color: white;
+  padding-left:4px;
+}
